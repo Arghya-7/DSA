@@ -1,6 +1,6 @@
 class Solution:
-    position.sort()
     def maxDistance(self, position: List[int], m: int) -> int:
+        position.sort()
         def counter(d):
             curr = position[0]
             answer = 1
